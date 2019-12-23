@@ -1,4 +1,4 @@
-# knowledge-graph-embedding-
+# Recommendation system based on knowledge graph embedding
 基于knowledge graph embedding的推荐系统
 
 本系统是一个基于knowledge graph embedding的商品推荐系统，以下是对该系统的详细介绍，
