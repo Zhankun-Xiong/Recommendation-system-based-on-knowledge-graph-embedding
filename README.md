@@ -40,7 +40,7 @@ Then there should be train.txt, valid.txt, and test.txt in this folder as the ba
 
 4.main.py is the main function, where you need to modify the Rescal method to replace TransE with Rescal, and you can set the hyperparameters used for training elsewhere.
 
-5.run.py is used to set the hyperparameters of the model. It uses 50% cross-validation. Different scoring functions can be used when scoring and verifying. The "Rescal"
+5.run.py is used to set the hyperparameters of the model. It uses 5-fold cross-validation. Different scoring functions can be used when scoring and verifying. The "Rescal"
 
 6.use.py is training with all samples, scoring and sorting all negative samples, taking the first 100 scores for output (the number is optional)
 
